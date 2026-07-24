@@ -1,0 +1,56 @@
+.skill-tooling/
+
+# OS and editor metadata
+.DS_Store
+**/.DS_Store
+._*
+Thumbs.db
+*~
+*.swp
+*.swo
+__pycache__/
+*.py[cod]
+
+# Local copies and backups
+* [0-9].*
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+.skill-tooling.env
+.skill-tooling.env.*
+!.skill-tooling.env.example
+.npmrc
+.pypirc
+.netrc
+credentials
+credentials.*
+secrets/
+private/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdbx
+*.mobileprovision
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Private athlete or family material must never enter this public repository
+athlete-data/
+medical-records/
+recruiting-records/
+private-media/

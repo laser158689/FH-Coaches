@@ -1,0 +1,97 @@
+{
+  "skill_family": {
+    "name": "field-hockey-coaching",
+    "description": "Field hockey coaching staff family for coordinated guidance across head coaching, offense, defense, positions, rules, skills, strength and conditioning, recruiting, development, special teams, and shared media-analysis workflows built around public clip references rather than hosted video.",
+    "version": "0.2.0"
+  },
+  "target": "grok",
+  "extension": ".grok",
+  "artifact_contract": "Local Grok skill bundle for filesystem install.",
+  "skills": [
+    {
+      "id": "field-hockey-backfield-coach",
+      "name": "field-hockey-backfield-coach",
+      "description": "Backfield coach."
+    },
+    {
+      "id": "field-hockey-coaching-staff",
+      "name": "field-hockey-coaching-staff",
+      "description": "Primary entry point and coordinator for any field hockey coaching question. Also owns the family's shared media workflow for clips, screenshots, drawings, and public example-footage references."
+    },
+    {
+      "id": "field-hockey-college-recruiting-coach",
+      "name": "field-hockey-college-recruiting-coach",
+      "description": "Field hockey College Recruiting Coach persona \u2014 current college recruiting process, NCAA recruiting basics, division fit, outreach strategy, highlight reels, camps and showcases, recruiting platforms, roster-fit evaluation, and how athletes and families can get recruited for NCAA or club field hockey. Trigger directly when the user addresses \"the recruiting coach\", \"the college recruiting coach\", or asks about getting recruited, contacting coaches, recruiting timelines, recruiting profiles, recruiting videos, camps, showcases, scholarships, or recruiting platforms for field hockey."
+    },
+    {
+      "id": "field-hockey-defense-coach",
+      "name": "field-hockey-defense-coach",
+      "description": "Field hockey Defense Coach persona \u2014 team-wide defensive structure and pressing. Trigger when the user addresses 'the defense coach' or asks about team-wide defensive shape."
+    },
+    {
+      "id": "field-hockey-forward-coach",
+      "name": "field-hockey-forward-coach",
+      "description": "Field hockey Forward Coach persona \u2014 the individual forward's job in both possession states. Trigger when the user addresses 'the forward coach' or asks how a forward should play or finish."
+    },
+    {
+      "id": "field-hockey-goalie-coach",
+      "name": "field-hockey-goalie-coach",
+      "description": "Field hockey Goalie Coach persona \u2014 everything about playing goalie. Trigger when the user addresses 'the goalie coach' or asks about goalkeeping technique or decisions."
+    },
+    {
+      "id": "field-hockey-head-coach",
+      "name": "field-hockey-head-coach",
+      "description": "Field hockey Head Coach persona \u2014 strategic overview and in-game management. Trigger when the user asks a broad or strategic field hockey coaching question."
+    },
+    {
+      "id": "field-hockey-mental-skills-coach",
+      "name": "field-hockey-mental-skills-coach",
+      "description": "Field hockey Mental Skills Coach persona \u2014 performance psychology for field hockey, including confidence, focus, composure, mistake recovery, pressure performance, communication under stress, leadership habits, injury-return mindset, and recruiting or tryout nerves. Trigger directly when the user addresses \"the mental skills coach\", \"the mindset coach\", \"the sports psychology coach\", or asks about confidence, choking, nerves, focus, slumps, fear after mistakes, pressure, composure, pregame routines, visualization, self-talk, leadership under stress, or the mental side of field hockey."
+    },
+    {
+      "id": "field-hockey-midfield-coach",
+      "name": "field-hockey-midfield-coach",
+      "description": "Field hockey Midfield Coach persona \u2014 the individual Midfield player's job in both possession states \u2014 connecting backfield to forward, transition speed in both directions, distribution and tempo control, and the decision-making load of playing the middle third. Trigger directly when the user addresses 'the midfield coach' or asks how a midfielder should play, transition, or distribute, for indoor or outdoor play, at any level (youth through international)."
+    },
+    {
+      "id": "field-hockey-national-development-coach",
+      "name": "field-hockey-national-development-coach",
+      "description": "Field hockey National Development Coach persona \u2014 current player-development pathways, national-team pipelines, age-group structures, selection systems, domestic competitions, talent identification, academy environments, and progression routes from youth to senior international hockey across countries, especially the United States, Canada, Mexico, the United Kingdom, Europe, Japan, China, and South America. Trigger directly when the user addresses \"the national development coach\", \"the national team development coach\", \"the development coach\", or asks how a country develops players, how its pathway works, what the current age-group or national-team pipeline is, how athletes move from youth hockey to senior national teams, whether a country currently has a men's or women's program or a specific age-group team, how to get noticed by a federation, or how countries compare in development structure."
+    },
+    {
+      "id": "field-hockey-offense-coach",
+      "name": "field-hockey-offense-coach",
+      "description": "Field hockey Offense Coach persona \u2014 team-wide shape and patterns of play while the team has the ball \u2014 ball circulation, formations for possession, passing and receiving as a unit under pressure, creating scoring chances, and finishing. Trigger directly when the user addresses 'the offense coach' or asks about team-wide attacking structure, possession patterns, formations while in possession, or generating scoring opportunities for indoor or outdoor play, at any level (youth through international). For one player's individual job at a specific position, a Forward/Midfield/Backfield coach persona is a better fit than this one."
+    },
+    {
+      "id": "field-hockey-opposing-coach",
+      "name": "field-hockey-opposing-coach",
+      "description": "Field hockey Opposing Coach persona. Identifies vulnerabilities in the discussed tactics, shape, or set pieces and explains how an opponent would exploit them. Devil's advocate for the coaching staff."
+    },
+    {
+      "id": "field-hockey-research-coach",
+      "name": "field-hockey-research-coach",
+      "description": "Field hockey Research Coach persona \u2014 evidence quality, injury epidemiology, population matching, cross-sport transfer, physiology and mechanism framing, and claim-strength discipline for field hockey performance, injury-risk, warm-up, and recovery questions. Trigger directly when the user asks what the research says, how strong the evidence is, whether a claim actually holds up, or what is known about field hockey injury patterns, female athlete physiology, RED-S-related risk, or transfer from other sports."
+    },
+    {
+      "id": "field-hockey-rules-coach",
+      "name": "field-hockey-rules-coach",
+      "description": "Field hockey Rules Coach. Accurate rule identification with citations, plain-language description, scenario interpretation, then brief guidance on using the rule to our advantage. Covers FIH, NCAA, NFHS, and indoor. Trigger when the user addresses 'the rules coach' or asks about legality, fouls, cards, restarts, or which rulebook applies."
+    },
+    {
+      "id": "field-hockey-skills-tactics-coach",
+      "name": "field-hockey-skills-tactics-coach",
+      "description": "Field hockey Skills & Tactics Coach persona \u2014 individual technical skills independent of position or possession state \u2014 ball control, first touch, passing and receiving mechanics, 1v1 eliminations, getting out of trouble under pressure, tackling and dispossessing an opponent, and jab/block tackle technique. Trigger directly when the user addresses 'the skills coach' or 'the tactics coach' or asks about a specific technique or mechanical fundamental, for indoor or outdoor play, at any level (youth through international)."
+    },
+    {
+      "id": "field-hockey-special-teams-coach",
+      "name": "field-hockey-special-teams-coach",
+      "description": "Field hockey Special Teams Coach persona \u2014 rehearsed set plays specifically \u2014 penalty corners (both attacking and defending), long corners, penalty strokes, and draws/pushback restarts. Trigger directly when the user addresses 'the special teams coach' or asks about corner plays, corner variations, penalty stroke strategy, or draw/pushback tactics, for indoor or outdoor play, at any level (youth through international). Not for open-play tactics \u2014 that's Offense/Defense Coach territory."
+    },
+    {
+      "id": "field-hockey-strength-conditioning-coach",
+      "name": "field-hockey-strength-conditioning-coach",
+      "description": "Field hockey Strength & Conditioning Coach persona \u2014 applied field-hockey physical preparation, warm-up design, basic sports nutrition and hydration, sleep and recovery habits, speed, repeat sprint ability, change of direction, conditioning, training load, return-to-play progressions, and film-based fatigue and movement assessment for outdoor and indoor hockey. Trigger directly when the user addresses 'Coach PJ', 'the strength coach', 'the conditioning coach', 'the S&C coach', or asks how to train, warm up, condition, fuel, recover, or address a physical weakness in field hockey players."
+    }
+  ]
+}

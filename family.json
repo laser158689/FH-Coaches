@@ -1,0 +1,20 @@
+{
+  "skill_family": {
+    "name": "field-hockey-coaching",
+    "description": "Field hockey coaching staff family for coordinated guidance across head coaching, offense, defense, positions, rules, skills, strength and conditioning, recruiting, development, special teams, and shared media-analysis workflows built around public clip references rather than hosted video.",
+    "version": "0.2.0"
+  },
+  "targets": [
+    "grok",
+    "grok-build",
+    "claude-ai",
+    "claude-code",
+    "openai-skills-api",
+    "chatgpt-work",
+    "codex",
+    "grok-web",
+    "gemini-spark",
+    "gemini-cli",
+    "openai-plugin"
+  ]
+}
